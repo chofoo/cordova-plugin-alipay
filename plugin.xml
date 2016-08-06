@@ -17,7 +17,7 @@
 
   <preference name="PARTNER_ID"/>
   <preference name="SELLER_ACCOUNT"/>
- 
+  <preference name="PRIVATE_KEY"/>
 
   <asset src="www/alipay.js" target="js/alipay.js"/>
 
@@ -29,19 +29,7 @@
     <config-file target="res/xml/config.xml" parent="/*">
       <preference name="partner" value="$PARTNER_ID" />
       <preference name="seller" value="$SELLER_ACCOUNT" />
-      <preference name="privatekey" value="MIICWwIBAAKBgQChpUAoCgXdBY7MwlNjS0LqNgnTI4QIbAH7ecwLSYOEqbMBnDIx
-vHUVT6lhJgZJh6WrW1ARNGJy3kPlZWessFOMAEfYZBH8rRC0MLZvpJJX66FhXFj7
-gD0Nms4ZGxU4XZNjRFMxM7EvUS/j1plq5qbA37tsBG0Uim9obYisNrO/YQIDAQAB
-AoGAI09h0F1AIqPQKdJZPNt35omfY8viT6SoWjKk6+JHJHedbsCcBllQijM4oMwZ
-m35SJjhwKRH0X3tGAZpBJ2vtE9MgnGTev9bl/4R920bo62+gnFc6R5ndxLz6rIo/
-rbQNys0t6f5AYveLo8YrlLTzE7PZY8iXzCfUo3n3+t/PCQECQQDSBGmRyLwX1zVV
-SsOeGA+rFDSkuvl5CSUMYzvioudEBj5ObRynj8D8TLBCRy775BXH7sA1dwX/dPEb
-WPnvjmwpAkEAxQmTM/ALMXsv2GRPBlTCaa3va5t0L05BfQvrOTq9eFXfmK87mVIe
-uMQZS82Rq4iBDbHIdLMqFoQZW5D1u6GgeQJAFyWDWRztlhcS+raFvsvaFjng33L4
-Ad3/JlFdjUn1AStK/KvL56/RTj1Jg9SCmiJ2QBXRO1NF5vTFigURbtScmQJAN8Ct
-1lRl1mp071XyxmfVWvHMfTZPedM61Jc6x8bHNfWWfy2WP5vs9XsHbVuNjGvjmGxl
-vB+2GQjn4/Dwl1b0gQJAGLHQ0QCyvcIjFIJAPJKoFvrRXL5qMUs6l9HsY2zjaiq9
-WiIBU8zQ21f1r7fX6lSFpLf24qtiwxRmTlHWDwDKcQ==" />
+      <preference name="privatekey" value="$PRIVATE_KEY" />
       <feature name="AliPay">
         <param name="android-package" value="wang.imchao.plugin.alipay.AliPayPlugin"/>
         <param name="onload" value="true" />
